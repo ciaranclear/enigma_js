@@ -1,0 +1,101 @@
+#keyboard-container {
+  position: relative;
+  background-image: url("../../images/rough_dark_texture.jpg");
+}
+
+.kb-select {
+  position: absolute;
+  top: 85px;
+  left: 30px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: black;
+}
+
+.kb-row {
+  display: flex;
+  width: 100%;
+  height: 33.33%;
+  justify-content: center;
+  align-items: center;
+}
+
+.kb-row > div {
+  width: 10%;
+  height: 100%;
+}
+
+.kb-key-container {
+  position: relative;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: monospace;
+  border-radius: 50%;
+}
+
+.kb-key-number {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.kb-key-number > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 49%;
+}
+
+.kb-key-standard {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.kb-key-down {
+  background: rgb(14, 14, 14);
+  border: 2px solid grey;
+  height: 50px;
+  width: 50px;
+  color: rgb(128, 0, 0);
+  border-radius: 50%;
+}
+
+.kb-key-up {
+  background: rgb(14, 14, 14);
+  border: 3px solid grey;
+  height: 53px;
+  width: 53px;
+  border-radius: 50%;
+}
+
+.kb-key-standard.kb-key-up {
+  font-size: 3.2em;
+}
+
+.kb-key-standard.kb-key-down {
+  font-size: 3.0em;
+}
+
+.kb-key-number.kb-key-up {
+  font-size: 2.0em;
+}
+
+.kb-key-number.kb-key-down {
+  font-size: 1.8em;
+}
+
+.kb-key {
+  position: absolute;
+  height: 53px;
+  width: 53px;
+  border-radius: 50%;
+}

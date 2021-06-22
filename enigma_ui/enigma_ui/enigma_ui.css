@@ -1,0 +1,139 @@
+
+
+#en-message {
+  position: absolute;
+  top: 60px;
+  left: 10%;
+  width: 80%;
+  height: 25px;
+  background: black;
+  color: white;
+  font-size: 0.7em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.en-asphalt-background {
+  background-image: url("../images/black_leather_texture.jpg");
+}
+
+.noSelect {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+#enigma-help {
+  position: absolute;
+  top: 9px;
+  left: 10px;
+}
+
+/*
+MACHINE CONTAINERS
+*/
+
+#scrambler-container {
+  box-sizing: border-box;
+  height: 245px;
+}
+
+#lampboard-container {
+  box-sizing: border-box;
+  height: 190px;
+}
+
+#keyboard-container {
+  box-sizing: border-box;
+  height: 190px;
+}
+
+#plugboard-container {
+  box-sizing: border-box;
+  display: none;
+  height: 280px;
+}
+
+#uhr-box-container {
+  box-sizing: border-box;
+  display: none;
+  height: 200px;
+}
+
+/*
+BASE STYLES
+*/
+
+.enigma-box-border > div {
+  border-color: rgb(190, 134, 69);
+}
+
+.enigma-box-background > div {
+  background: rgb(36, 43, 53);
+}
+
+
+@media screen and (max-width: 800px) {
+  #enigma-container {
+    display: block;
+  }
+
+  #machine-container {
+    width: 100%;
+    float: left;
+  }
+  
+  #input-container {
+    width: 100%;
+    float: left;
+  }
+  
+  #output-container {
+    width: 100%;
+    float: left;
+  }
+
+  #input-container > div {
+    width: 50%;
+    float: left;
+  }
+  
+  #output-container > div {
+    width: 50%;
+    float: left;
+  }
+
+}
+
+
+@media screen and (max-width: 600px) {
+  #machine-container {
+    width: 100%;
+    float: left;
+  }
+  
+  #input-container {
+    width: 100%;
+    float: left;
+  }
+  
+  #output-container {
+    width: 100%;
+    float: left;
+  }
+
+  #input-container > div {
+    width: 100%;
+    float: left;
+  }
+  
+  #output-container > div {
+    width: 100%;
+    float: left;
+  }
+
+}

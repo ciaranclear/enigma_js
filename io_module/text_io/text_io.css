@@ -1,0 +1,141 @@
+#input-text-container {
+  position: relative;
+  background-image: url("../images/rough_dark_texture.jpg");
+  background-size: cover;
+}
+
+#output-text-container {
+  position: relative;
+  background-image: url("../images/rough_dark_texture.jpg");
+  background-size: cover;
+}
+
+.io-read::-webkit-scrollbar {
+  width: 10px;               /* width of the entire scrollbar */
+}
+
+.io-read::-webkit-scrollbar-track {
+  background: rgb(123, 124, 170);        /* color of the tracking area */
+}
+
+.io-read::-webkit-scrollbar-thumb {
+  background-color: rgb(104, 106, 153);    /* color of the scroll thumb */
+  border-radius: 6px;       /* roundness of the scroll thumb */
+  border: 0px solid rgb(123, 124, 170);  /* creates padding around scroll thumb */
+}
+
+.io-write::-webkit-scrollbar {
+  width: 10px;               /* width of the entire scrollbar */
+}
+
+.io-write::-webkit-scrollbar-track {
+  background: rgb(123, 124, 170);        /* color of the tracking area */
+}
+
+.io-write::-webkit-scrollbar-thumb {
+  background-color: rgb(104, 106, 153);    /* color of the scroll thumb */
+  border-radius: 6px;       /* roundness of the scroll thumb */
+  border: 0px solid rgb(123, 124, 170);  /* creates padding around scroll thumb */
+}
+
+textarea:focus {
+    outline: none;
+}
+
+.io-window {
+  position: relative;
+  box-sizing: border-box;
+  height: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.io-output-group {
+  float: left;
+  display: flex;
+}
+
+.io-write {
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  background: rgb(146, 147, 202);
+  border: hidden;
+  border-radius: 10px;
+}
+
+.io-read {
+  box-sizing: border-box;
+  padding-top: 5px;
+  width: 100%;
+  height: 100%;
+  font-family: monospace;
+  font-size: 1.2em;
+  font-weight: bold;
+  color: rgb(100, 99, 0);
+  background: rgb(146, 147, 202);
+  border-radius: 10px;
+  overflow-y:scroll;
+  overflow-x: hidden;
+  display: none;
+}
+
+.io-controls {
+  visibility: hidden;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background: rgb(146, 147, 202);;
+  border: 1px solid rgb(51, 51, 78);
+  border-radius: 7px;
+  left: 2%;
+  bottom: 3.5%;
+  width: 95%;
+  height: 15%;
+}
+
+.io-controls > div {
+  box-sizing: border-box;
+  width: 33%;
+  height: 95%;
+  margin: 1px;
+  font-size: 1.0em;
+  font-family: monospace;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid;
+  border-radius: 8px;
+}
+
+.io-inactive {
+  border-color: rgb(117, 117, 255);
+  color: rgb(117, 117, 255);
+}
+
+.io-on {
+  border-color: rgb(51, 51, 78);
+  background: rgb(51, 51, 78);
+  color: rgb(146, 147, 202);
+}
+
+.io-off {
+  border-color: rgb(51, 51, 78);
+  color: rgb(51, 51, 78);
+}
+
+.io-r2-turnover {
+  background: green;
+}
+
+.io-r3-turnover {
+  background: red;
+}
+
+.io-female {
+  background: darkblue;
+}

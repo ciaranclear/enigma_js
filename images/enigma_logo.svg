@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
+  "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg width="14.7328cm" height="6.2102cm" viewBox="481.8906 877.8125 2088.1094 880.1875" version="1.0"
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+<desc>
+  Exported by the ArtWorks SVGExport module.
+  Source document: SCSI::Develop.$.Develop.Web.!WebXpress.^.Input.cm.Pages.crypto.enigma.artwork.enigma_logo
+</desc>
+<g transform="matrix(1 0 0 -1 0 2635.8125)" stroke-miterlimit="16" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="bevel" stroke-linecap="butt">
+<defs>
+<linearGradient id="_Fill0" gradientUnits="userSpaceOnUse" x1="1062.9531" y1="1913.3125" x2="2055.0391" y2="-70.8672" spreadMethod="pad">
+<stop offset="0" stop-color="#ffffff"/>
+<stop offset="1" stop-color="#000000"/>
+</linearGradient>
+</defs>
+<path d="M1525.9688 877.8125 C2025.9688 877.8125 2570 1182 2570 1318 2570 1474 2026 1758 1526 1758 1026 1758 482 1474 481.8906 1309.8047 482 1134 1025.9688 877.8125 1525.9688 877.8125 Z" fill="url(#_Fill0)"/>
+<path d="M2410 1402 C2331.3672 1349.8125 2349.7734 1268.7813 2420.6406 1231.7891 1853.8516 853.9297 1159.8359 857.7813 631.8359 1221.7813 705.1484 1277.2656 698.8906 1352.7656 638 1398 1170 1790 1866 1798 2410 1402 Z" stroke="#000000" stroke-width="1.25" fill="#000000"/>
+<defs>
+<radialGradient id="_Fill1" gradientUnits="userSpaceOnUse" cx="2446.4922" cy="1324.7188" r="65.7656" spreadMethod="pad">
+<stop offset="0" stop-color="#ffffff"/>
+<stop offset="1" stop-color="#000000"/>
+</radialGradient>
+</defs>
+<circle cx="2455.3438" cy="1314.3828" r="53.1328" stroke="#000000" stroke-width="1.25" fill="url(#_Fill1)"/>
+<path d="M2403.6875 1315.8672 2507.0078 1315.8672" stroke="#000000" stroke-width="17.0078" fill="none"/>
+<defs>
+<radialGradient id="_Fill2" gradientUnits="userSpaceOnUse" cx="594.0938" cy="1323.2422" r="65.7656" spreadMethod="pad">
+<stop offset="0" stop-color="#ffffff"/>
+<stop offset="1" stop-color="#000000"/>
+</radialGradient>
+</defs>
+<circle cx="602.9453" cy="1312.9063" r="53.1328" stroke="#000000" stroke-width="1.25" fill="url(#_Fill2)"/>
+<path d="M566.4219 1350.9063 639.4766 1277.8438" stroke="#000000" stroke-width="17.0078" fill="none"/>
+<defs>
+<linearGradient id="_Fill3" gradientUnits="userSpaceOnUse" x1="1275.5391" y1="1771.5859" x2="1842.4453" y2="141.7266" spreadMethod="pad">
+<stop offset="0" stop-color="#ffffff"/>
+<stop offset="1" stop-color="#000000"/>
+</linearGradient>
+</defs>
+<path d="M740.2188 1200.7344 740.2188 1398.5234 932.1016 1510.6953 930.625 1447.2266 803.6875 1379.3359 803.6875 1333.5781 887.8203 1333.5781 887.8203 1280.4375 802.2109 1280.4375 802.2109 1233.2031 935.0469 1169.7344 935.0469 1110.6953 740.2188 1200.7344 Z" stroke="#000000" stroke-width="1.25" fill="url(#_Fill3)"/>
+<defs>
+<linearGradient id="_Fill4" gradientUnits="userSpaceOnUse" x1="1275.5391" y1="1771.5859" x2="1842.4453" y2="141.7266" spreadMethod="pad">
+<stop offset="0" stop-color="#ffffff"/>
+<stop offset="1" stop-color="#000000"/>
+</linearGradient>
+</defs>
+<path d="M977.8516 1100.3672 977.8516 1522.5078 C1047.2266 1563.8359 1180.0703 1618.4453 1219.9219 1529.8828 L1219.9219 1025.0859 1138.7422 1045.75 1138.7422 1473.7969 C1141.6953 1540.2188 1073.7969 1516.6016 1048.7031 1498.8906 L1048.7031 1075.2734 977.8516 1100.3672 Z" stroke="#000000" stroke-width="1.25" fill="url(#_Fill4)"/>
+<defs>
+<linearGradient id="_Fill5" gradientUnits="userSpaceOnUse" x1="1275.5391" y1="1771.5859" x2="1842.4453" y2="141.7266" spreadMethod="pad">
+<stop offset="0" stop-color="#ffffff"/>
+<stop offset="1" stop-color="#000000"/>
+</linearGradient>
+</defs>
+<path d="M1273.0625 1614.0234 1346.8594 1619.9219 1346.8594 1010.3281 1273.0625 1016.2344 1273.0625 1614.0234 Z" stroke="#000000" stroke-width="1.25" fill="url(#_Fill5)"/>
+<defs>
+<linearGradient id="_Fill6" gradientUnits="userSpaceOnUse" x1="1275.5391" y1="1771.5859" x2="1842.4453" y2="141.7266" spreadMethod="pad">
+<stop offset="0" stop-color="#ffffff"/>
+<stop offset="1" stop-color="#000000"/>
+</linearGradient>
+</defs>
+<path d="M1405.8984 1594.8281 1405.8984 1063.4609 C1405.8984 1022.1328 1444.2813 995.5703 1472.3203 994.0938 L1612.5469 994.0938 C1639.1094 994.0938 1687.8203 1019.1875 1687.8203 1057.5625 L1687.8203 1320.2891 1525.4609 1320.2891 1515.125 1274.5391 1600.5938 1274.5938 C1610.1875 1274.5938 1618.5938 1263.7891 1618.5938 1255.7891 L1618.4453 1094.4609 C1618.4453 1025.0859 1488.5547 1033.9453 1484.1328 1078.2266 L1484.1328 1569.7422 C1518.0781 1608.1172 1611.0703 1593.3516 1611.0703 1537.2656 L1686.3438 1537.2656 1686.3438 1585.9766 C1649.4453 1668.6328 1428.0391 1646.4922 1405.8984 1594.8281 Z" stroke="#000000" stroke-width="1.25" fill="url(#_Fill6)"/>
+<defs>
+<linearGradient id="_Fill7" gradientUnits="userSpaceOnUse" x1="1275.5391" y1="1771.5859" x2="1842.4453" y2="141.7266" spreadMethod="pad">
+<stop offset="0" stop-color="#ffffff"/>
+<stop offset="1" stop-color="#000000"/>
+</linearGradient>
+</defs>
+<path d="M1723.2422 1010.3281 1722.9922 1621.6563 C1832.0703 1610.2031 2036.0703 1568.8672 2036.0703 1526.8672 L2036.1641 1081.1797 1971.2188 1061.9922 1971.2188 1478.2266 C1970.9922 1496.9922 1919.6563 1563.6563 1919.5547 1507.75 L1919.5547 1047.2266 1856.0859 1032.4688 1856.0859 1500.3672 C1856.3203 1542.9922 1794.9922 1591.6563 1795.5703 1535.7891 L1795.5703 1022.1328 1723.2422 1010.3281 Z" stroke="#000000" stroke-width="1.25" fill="url(#_Fill7)"/>
+<defs>
+<linearGradient id="_Fill8" gradientUnits="userSpaceOnUse" x1="1275.5391" y1="1771.5859" x2="1842.4453" y2="141.7266" spreadMethod="pad">
+<stop offset="0" stop-color="#ffffff"/>
+<stop offset="1" stop-color="#000000"/>
+</linearGradient>
+</defs>
+<path d="M2140.8594 1269.7031 2225.4766 1314.8984 2225.4766 1410.0938 C2153.3594 1478.3594 2141.8203 1384.125 2140.8594 1269.7031 Z M2076.6563 1097.9922 2143.3281 1124.6563 2143.3281 1213.9922 2225.9922 1247.3281 2225.9922 1160.6563 2291.3281 1196.6563 2291.3281 1435.3281 C2233.9922 1466 2180.6563 1499.3281 2152.6563 1503.3281 2118.2656 1508.2344 2076.6563 1389.9922 2076.6563 1295.3281 L2076.6563 1097.9922 Z" stroke="#000000" stroke-width="1.25" fill="url(#_Fill8)"/>
+</g>
+</svg>

@@ -1,0 +1,111 @@
+
+.rc-container-outer {
+  position: absolute;
+  z-index: 1;
+  top: 380px;
+  padding: 20px 5px 20px 5px;
+  border-radius: 20px;
+  background: rgb(190, 134, 69);
+}
+
+.rc-container-inner {
+  border-radius: 10px;
+  max-width: 560px;
+  overflow:auto;
+  background: rgb(36, 43, 53);
+}
+
+.rc-cell {
+  box-sizing: border-box;
+  border: 1px solid black;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: monospace;
+  font-size: 1.3em;
+  float: left;
+  width: 70px;
+  height: 100px;
+}
+
+.rc-cell > div {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  width: 90%;
+  height: 25%;
+}
+
+.rc-cell-occupied {
+  background: grey;
+}
+
+.rc-cell-empty {
+  background: green;
+}
+
+.rc-cell-empty > div {
+  background: grey;
+}
+
+.rc-cell-norm {
+  background: rgb(85, 85, 85);
+}
+
+.rc-cell-fourth {
+  background: rgb(168, 0, 0);
+}
+
+.rc-rotor-display {
+  position: absolute;
+  top: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 150px;
+  border: 1px solid black;
+  border-radius: 50%;
+  background: grey;
+}
+
+.rc-rotor-display > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  width: 100px;
+  height: 30px;
+}
+
+.rc-reflector-display {
+  position: absolute;
+  top: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  width: 150px;
+  height: 150px;
+  background: grey;
+}
+
+.rc-reflector-display > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  width: 100px;
+  height: 30px;
+}
+
+.rc-selector-norm {
+  background: rgb(85, 85, 85);
+}
+
+.rc-selector-fourth {
+  background: rgb(168, 0, 0);
+}

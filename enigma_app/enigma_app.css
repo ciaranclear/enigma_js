@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+}
+
+#en-help {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+}
+
+.en-help-icon {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(204, 204, 204);
+  border: 1px solid rgb(204, 204, 204);
+  border-radius: 10px;
+}
+
+/*
+MAIN CONTAINERS
+*/
+#enigma-container {
+  display: flex;
+  background: rgb(36, 43, 53);
+}
+
+#machine-container {
+  position: relative;
+  width: 50%;
+  float: left;
+}
+
+#machine {
+  border: 5px solid rgb(190, 134, 69);
+}
+
+#input-container {
+  width: 25%;
+  height: 650px;
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#output-container {
+  width: 25%;
+  height: 650px;
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*
+MACHINE SELECT CONTAINER
+*/
+#select-container {
+  position: relative;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../images/brushed_metal_texture.jpg");
+  border: none;
+  height: 50px;
+}
+
+#select-container > label {
+  margin: 10px;
+  font-size: 25px;
+}
+
+#enigma-box-cover > img {
+  width: 33%;
+}
+
+#machine-type {
+  color: white;
+  background-color: rgb(63, 63, 128);
+}
+
+/*
+BOX COVER
+*/
+#enigma-box-cover {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../images/seamless_wood_texture.jpg");
+  border: none;
+  height: 650px;
+}

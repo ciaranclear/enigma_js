@@ -1,0 +1,124 @@
+#uhr-box-container {
+  position: relative;
+  background-image: url("../../images/rough_dark_texture.jpg");
+}
+
+.ub-end-block {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  float: left;
+  height: 100%;
+  width: 10%;
+}
+
+#ub-uhr-plugs-container {
+  box-sizing: border-box;
+  float: left;
+  height: 100%;
+  width: 80%;
+}
+
+.ub-uhr-plugs-row {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 50%;
+}
+
+.ub-uhr-plugs-row > div {
+  border-radius: 35px;
+  height: 90%;
+  width: 8.5%;
+}
+
+#uhr-box-setting {
+  width: 50%;
+  color: white;
+  background-color: rgb(63, 63, 128);
+}
+
+#ub-help {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+}
+
+.ub-plug {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background: black;
+  border: 1px solid black;
+  border-radius: inherit;
+  font-family: monospace;
+  font-size: 1.1rem;
+  height: 100%;
+  width: 100%;
+}
+
+.ub-plug > div:nth-child(1) {
+  box-sizing: border-box;
+  width: 30px;
+  height: 30px;
+  border: 3px solid black;
+  border-radius: 50%;
+}
+
+.ub-plug > div:nth-child(3) {
+  box-sizing: border-box;
+  width: 30px;
+  height: 30px;
+  border: 6px solid black;
+  border-radius: 50%;
+}
+
+.ub-a-plug {
+  color: rgb(133, 29, 29);
+}
+
+.ub-b-plug {
+  color: rgb(31, 31, 134);
+}
+
+.ub-plug-light-lg > div:nth-child(1) {
+  background: rgb(0, 68, 53);
+}
+
+.ub-plug-light-sm > div:nth-child(3) {
+  background: rgb(0, 68, 53);
+}
+
+.ub-holder-empty {
+  box-sizing: border-box;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  background: black;
+  border: 1px solid black;
+  border-radius: inherit;
+  color: grey;
+  font-family: monospace;
+  font-size: 1.5em;
+  height: 100%;
+  width: 100%;
+}
+
+#ub-drag-image {
+  position: absolute;
+  top: 100px;
+  z-index: -1;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: grey;
+  border: 1px solid black;
+  border-radius: 21px;
+  height: 85px;
+  width: 46px;
+}

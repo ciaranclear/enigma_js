@@ -1,0 +1,105 @@
+
+.hi-svg-window {
+	width: 100%;
+	height: 100%;
+	background: rgb(146, 147, 202);
+	border-radius: 10px;
+}
+
+.hi-window {
+  position: relative;
+  box-sizing: border-box;
+  height: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hi-controls {
+  visibility: hidden;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background: rgb(146, 147, 202);;
+  border: 1px solid rgb(51, 51, 78);
+  border-radius: 7px;
+  left: 2%;
+  bottom: 3.5%;
+  width: 95%;
+  height: 15%;
+}
+
+.hi-controls > div {
+  box-sizing: border-box;
+  width: 33%;
+  height: 95%;
+  margin: 1px;
+  font-size: 1.0em;
+  font-family: monospace;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid;
+  border-radius: 8px;
+}
+
+.hi-inactive {
+  border-color: rgb(117, 117, 255);
+  color: rgb(117, 117, 255);
+}
+
+.hi-on {
+  border-color: rgb(51, 51, 78);
+  background: rgb(51, 51, 78);
+  color: rgb(146, 147, 202);
+}
+
+.hi-off {
+  border-color: rgb(51, 51, 78);
+  color: rgb(51, 51, 78);
+}
+
+
+line.hi-horizontal-x-scale {
+  stroke: black;
+}
+
+text.hi-horizontal-x-scale {
+  font-size: 0.5em;
+}
+
+line.hi-vertical-x-scale {
+  stroke: black;
+}
+
+text.hi-vertical-x-scale {
+  font-size: 0.5em;
+}
+
+line.hi-vertical-y-scale {
+  stroke: black;
+}
+
+text.hi-vertical-y-scale {
+  font-size: 0.6em;
+}
+
+line.hi-horizontal-y-scale {
+  stroke: black;
+}
+
+text.hi-horizontal-y-scale {
+  font-size: 0.75em;
+}
+
+.hi-grid-line {
+  stroke: rgba(0,0,0,0.25);
+  stroke-width: 1px;
+}
+
+.hi-bar {
+  color: black;
+}

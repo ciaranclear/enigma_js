@@ -1,0 +1,130 @@
+#scrambler-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../../images/rough_dark_texture.jpg");
+}
+
+#sc-help {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+}
+
+#sc-open-close {
+  position: absolute;
+  left: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+  background: black;
+  color: white;
+}
+
+#sc-scrambler-assy {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 10px;
+  background: grey;
+  height: 150px;
+}
+
+#sc-cell-ref {
+  display: none;
+}
+
+.sc-cell {
+  border: 1px solid black;
+  background: grey;
+  margin: 0.5%;
+  border-radius: 8px;
+  height: 96%;
+  width: 60px;
+}
+
+.sc-cell-closed {
+  box-sizing: border-box;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.sc-cell-closed > div {
+  box-sizing: border-box;
+  border: 1px solid black;
+  border-radius: 7px;
+  width: 98%;
+  height: 31%;
+}
+
+.sc-cell-open {
+  box-sizing: border-box;
+  height: 100%;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  font-family: monospace;
+  font-size: 1.3em;
+  background: grey;
+  border-radius: inherit;
+}
+
+.sc-cell-open > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 95%;
+  height: 25%;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.sc-cell-open-norm > div {
+  background: rgb(85, 85, 85);
+}
+
+.sc-cell-open-fourth > div {
+  background: rgb(168, 0, 0);
+}
+
+.sc-rotor-window {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: monospace;
+  font-size: 1.5em;
+  background: grey;
+}
+
+.sc-rotor-window-fourth {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: monospace;
+  font-size: 1.5em;
+  background: rgb(168, 0, 0);
+}
+
+.sc-rotor-key {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  background: grey;
+}
+
+.sc-rotor-key > div {
+  border: 1px solid black;
+  background: rgb(85, 85, 85);
+  border-radius: 3px;
+  width: 90%;
+  height: 5px;
+}
